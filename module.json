@@ -1,0 +1,22 @@
+{
+    "name": "Money",
+    "alias": "money",
+    "description": "",
+    "keywords": [
+        "framework",
+        "laravel",
+        "boilerplate",
+        "money"
+    ],
+    "priority": 0,
+    "providers": [
+        "Modules\\Money\\Providers\\MoneyServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "minimumCoreVersion": "",
+    "title": "Money",
+    "version":"0.0.1",
+    "author": "Hafijul Islam"
+}
