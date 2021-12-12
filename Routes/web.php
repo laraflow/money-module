@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Modules\Money\Http\Controllers\MoneyController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::prefix('money')->group(function() {
-    Route::get('/', 'MoneyController@index');
+Route::prefix('money')->group(function () {
+    Route::get('/', [MoneyController::class, 'index']);
 });
